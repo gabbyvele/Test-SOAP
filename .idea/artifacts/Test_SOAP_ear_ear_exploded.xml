@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Test-SOAP-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/Test-SOAP-ear/target/Test-SOAP-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Test-SOAP-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Test-SOAP-ear/target/Test-SOAP-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/Test-SOAP-ear/src/main/application" />
+      <element id="archive" name="Test-SOAP-web.war">
+        <element id="artifact" artifact-name="Test-SOAP-web:war exploded" />
+      </element>
+      <element id="archive" name="Test-SOAP-ejb.jar">
+        <element id="artifact" artifact-name="Test-SOAP-ejb:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

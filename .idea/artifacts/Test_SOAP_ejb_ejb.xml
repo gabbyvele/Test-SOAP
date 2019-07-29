@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="Test-SOAP-ejb:ejb">
+    <output-path>$PROJECT_DIR$/Test-SOAP-ejb/target</output-path>
+    <root id="archive" name="Test-SOAP-ejb.jar">
+      <element id="artifact" artifact-name="Test-SOAP-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

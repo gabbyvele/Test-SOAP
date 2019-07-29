@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="Test-SOAP-ear:ear">
+    <output-path>$PROJECT_DIR$/Test-SOAP-ear/target</output-path>
+    <root id="archive" name="Test-SOAP-ear.ear">
+      <element id="artifact" artifact-name="Test-SOAP-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>
